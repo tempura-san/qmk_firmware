@@ -189,3 +189,15 @@ void matrix_scan_kb(void) {
     /* Run matrix_scan_user code */
     matrix_scan_user();
 }
+
+void bootloader_jump(void) {
+    /* not implemented due to closed source bootloader */
+}
+
+void mcu_reset(void) {
+    NVIC_SystemReset();
+}
+
+void enter_bootloader_mode_if_requested(void) {
+    /* not implemented due to closed source bootloader */
+}
