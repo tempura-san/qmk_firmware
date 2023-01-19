@@ -1,0 +1,10 @@
+{
+    "keyboard_name": "Anne Pro (QMK)",
+    "manufacturer": "obins",
+    "maintainer": "tempura-san",
+    "usb": {
+        "pid": "0x5710",
+        "vid": "0x0483",
+        "device_version": "2.0.0"
+    }
+}
